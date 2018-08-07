@@ -14,7 +14,7 @@ xhttp.onreadystatechange = function() {
        return;
     }
 };
-xhttp.open("GET", file, true);
+xhttp.open("GET", url, true);
 xhttp.send();
    },
    foreach = function (array,fn) {
